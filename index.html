@@ -4,6 +4,7 @@
 
 <head>
   <meta charset="UTF-8">
+
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
 
@@ -13,18 +14,43 @@
   <title>Celia ISSAOUN | Data Analyst</title>
 
   <link rel="stylesheet" href="style.css">
+
   <script src="script.js" defer></script>
+
+  <!-- STYLE DES COORDONNÉES -->
+  <style>
+    .contact-detail {
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      color: #475569;
+      text-align: center;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-method {
+      min-width: 0;
+    }
+  </style>
+
 </head>
 
 <body>
 
-  <!-- NAVIGATION -->
-  <header class="site-header">
-    <nav class="navigation" aria-label="Navigation principale">
+  <!-- ================= NAVIGATION ================= -->
 
-      <a href="#accueil" class="logo" data-tab-link="accueil">
+  <header class="site-header">
+
+    <nav class="navigation"
+         aria-label="Navigation principale">
+
+      <a href="#accueil"
+         class="logo"
+         data-tab-link="accueil">
+
         <span class="logo-icon">CI.</span>
         <span>Celia ISSAOUN</span>
+
       </a>
 
       <div class="nav-links">
@@ -32,32 +58,49 @@
         <a href="#accueil"
            data-tab-link="accueil"
            class="active"
-           aria-current="page">Accueil</a>
+           aria-current="page">
+          Accueil
+        </a>
 
         <a href="#apropos"
-           data-tab-link="apropos">À propos</a>
+           data-tab-link="apropos">
+          À propos
+        </a>
 
         <a href="#competences"
-           data-tab-link="competences">Compétences</a>
+           data-tab-link="competences">
+          Compétences
+        </a>
 
         <a href="#experiences"
-           data-tab-link="experiences">Expériences</a>
+           data-tab-link="experiences">
+          Expériences
+        </a>
 
         <a href="#projets"
-           data-tab-link="projets">Projets</a>
+           data-tab-link="projets">
+          Projets
+        </a>
 
         <a href="#contact"
-           data-tab-link="contact">Contact</a>
+           data-tab-link="contact">
+          Contact
+        </a>
 
       </div>
+
     </nav>
+
   </header>
+
 
   <main id="contenu">
 
+
     <!-- ================= ACCUEIL ================= -->
 
-    <section id="accueil" class="tab-panel active">
+    <section id="accueil"
+             class="tab-panel active">
 
       <div class="hero">
 
@@ -68,32 +111,40 @@
           </span>
 
           <div class="photo-profil">
+
             <img src="images/profil.png"
                  alt="Portrait professionnel de Celia ISSAOUN">
+
           </div>
 
-          <h1>Celia <span>ISSAOUN</span></h1>
+          <h1>
+            Celia <span>ISSAOUN</span>
+          </h1>
 
           <h2>Data Analyst Junior</h2>
 
           <p class="hero-description">
+
             Diplômée d'un Master 2 en Statistiques
             Appliquées et Analyse Décisionnelle,
             je transforme les données en analyses
             fiables et exploitables pour accompagner
             la prise de décision.
+
           </p>
 
           <div class="tags hero-tags">
+
             <span>Python</span>
             <span>R</span>
             <span>SQL</span>
             <span>SAS</span>
             <span>Excel</span>
-            <span>Google Cloud Plateform</span>
+            <span>Google Cloud Platform</span>
             <span>HTML, CSS, PHP</span>
             <span>Power BI</span>
             <span>Statistiques</span>
+
           </div>
 
           <div class="hero-actions">
@@ -101,33 +152,49 @@
             <a href="#projets"
                data-tab-link="projets"
                class="btn btn-primary">
+
               Découvrir mes projets
+
             </a>
 
             <a href="#contact"
                data-tab-link="contact"
                class="btn btn-secondary">
+
               Me contacter
+
             </a>
 
           </div>
 
         </div>
+
       </div>
 
     </section>
 
 
+
     <!-- ================= À PROPOS ================= -->
 
-    <section id="apropos" class="tab-panel" hidden>
+    <section id="apropos"
+             class="tab-panel"
+             hidden>
 
       <div class="page-container">
 
         <div class="section-heading">
-          <span class="eyebrow">MON PROFIL</span>
+
+          <span class="eyebrow">
+            MON PROFIL
+          </span>
+
           <h1>À propos de moi</h1>
-          <p>Mon parcours, ma formation et mes objectifs.</p>
+
+          <p>
+            Mon parcours, ma formation et mes objectifs.
+          </p>
+
         </div>
 
         <div class="content-card">
@@ -135,172 +202,276 @@
           <h2>Qui suis-je ?</h2>
 
           <p>
+
             Je suis diplômée d'un Master 2 en
             Mathématiques appliquées, statistiques,
             parcours Statistiques Appliquées et Analyse
             Décisionnelle à l'Université de Caen Normandie.
+
           </p>
 
           <p>
+
             Je suis spécialisée dans la collecte,
             le traitement, l'analyse statistique
             et la visualisation de données.
+
           </p>
 
           <p>
+
             Mon objectif est de transformer des données
             complexes en résultats clairs, fiables
             et exploitables pour faciliter la prise
             de décision.
+
           </p>
 
         </div>
 
+
         <div class="info-grid">
 
           <article class="content-card">
+
             <h3>Formation</h3>
+
             <p>
               Master 2 — Statistiques Appliquées
               et Analyse Décisionnelle
             </p>
+
             <p class="muted">
               Université de Caen Normandie — 2026
             </p>
+
           </article>
 
+
           <article class="content-card">
+
             <h3>Objectif professionnel</h3>
+
             <p>
-              CDI ou CDD en Data Analysis,Data scientist,
-              études statistiques ou Business Intelligence.
+
+              CDI ou CDD en Data Analysis,
+              Data Science, études statistiques
+              ou Business Intelligence.
+
             </p>
-            <p class="muted">Mobilité géographique</p>
+
+            <p class="muted">
+              Mobilité géographique
+            </p>
+
           </article>
 
         </div>
 
       </div>
+
     </section>
+
 
 
     <!-- ================= COMPÉTENCES ================= -->
 
-    <section id="competences" class="tab-panel" hidden>
+    <section id="competences"
+             class="tab-panel"
+             hidden>
 
       <div class="page-container">
 
         <div class="section-heading">
-          <span class="eyebrow">SAVOIR-FAIRE</span>
+
+          <span class="eyebrow">
+            SAVOIR-FAIRE
+          </span>
+
           <h1>Mes compétences</h1>
-          <p>Outils, technologies et méthodes statistiques.</p>
+
+          <p>
+            Outils, technologies et méthodes statistiques.
+          </p>
+
         </div>
+
 
         <div class="card-grid">
 
+
+          <!-- PROGRAMMATION -->
+
           <article class="content-card">
+
             <div class="card-icon">01</div>
+
             <h2>Programmation</h2>
+
             <div class="tags">
+
               <span>Python</span>
               <span>R</span>
               <span>SQL</span>
               <span>SAS</span>
               <span>VBA</span>
+
             </div>
+
           </article>
 
+
+          <!-- VISUALISATION -->
+
           <article class="content-card">
+
             <div class="card-icon">02</div>
+
             <h2>Visualisation</h2>
+
             <div class="tags">
+
               <span>Power BI</span>
               <span>ggplot2</span>
               <span>Matplotlib</span>
               <span>Seaborn</span>
               <span>Leaflet</span>
+
             </div>
+
           </article>
 
+
+          <!-- STATISTIQUES -->
+
           <article class="content-card">
+
             <div class="card-icon">03</div>
+
             <h2>Statistiques</h2>
+
             <div class="tags">
+
               <span>Tests statistiques</span>
               <span>ANOVA</span>
               <span>Régression</span>
               <span>ACP</span>
               <span>ACM</span>
               <span>Séries temporelles</span>
+
             </div>
+
           </article>
 
+
+          <!-- TRAITEMENT -->
+
           <article class="content-card">
+
             <div class="card-icon">04</div>
+
             <h2>Traitement des données</h2>
+
             <div class="tags">
+
               <span>Pandas</span>
               <span>NumPy</span>
               <span>ETL</span>
               <span>Excel</span>
               <span>Apache Hop</span>
+
             </div>
+
           </article>
 
+
+          <!-- APPLICATIONS -->
+
           <article class="content-card">
+
             <div class="card-icon">05</div>
+
             <h2>Applications</h2>
+
             <div class="tags">
+
               <span>Streamlit</span>
               <span>R Shiny</span>
               <span>Jupyter</span>
+
             </div>
+
           </article>
 
+
+          <!-- ENVIRONNEMENTS -->
+
           <article class="content-card">
+
             <div class="card-icon">06</div>
+
             <h2>Environnements</h2>
+
             <div class="tags">
+
               <span>GitHub</span>
               <span>GitLab</span>
               <span>VS Code</span>
               <span>RStudio</span>
               <span>QGIS</span>
+
             </div>
+
           </article>
 
         </div>
 
       </div>
+
     </section>
+
 
 
     <!-- ================= EXPÉRIENCES ================= -->
 
-    <section id="experiences" class="tab-panel" hidden>
+    <section id="experiences"
+             class="tab-panel"
+             hidden>
 
       <div class="page-container">
 
         <div class="section-heading">
-          <span class="eyebrow">PARCOURS PROFESSIONNEL</span>
+
+          <span class="eyebrow">
+            PARCOURS PROFESSIONNEL
+          </span>
+
           <h1>Mes expériences</h1>
+
           <p>
             Application de mes compétences
             sur des projets concrets.
           </p>
+
         </div>
+
 
         <article class="content-card experience-card">
 
-          <span class="eyebrow">AVRIL — OCTOBRE 2026</span>
+          <span class="eyebrow">
+            AVRIL — OCTOBRE 2026
+          </span>
 
-          <h2>Analyste de données R&D — Groupe Bel</h2>
+          <h2>
+            Analyste de données R&D — Groupe Bel
+          </h2>
 
           <p class="muted">
             Stage de fin d'études · Vendôme
           </p>
 
           <ul>
+
             <li>
               Automatisation de traitements de données
               scientifiques avec Python.
@@ -325,57 +496,80 @@
               Restitution des résultats auprès
               des experts scientifiques.
             </li>
+
           </ul>
 
           <div class="tags">
+
             <span>Python</span>
             <span>Pandas</span>
             <span>Streamlit</span>
             <span>Statistiques</span>
+
           </div>
 
         </article>
 
       </div>
+
     </section>
+
 
 
     <!-- ================= PROJETS ================= -->
 
-    <section id="projets" class="tab-panel" hidden>
+    <section id="projets"
+             class="tab-panel"
+             hidden>
 
       <div class="page-container">
 
         <div class="section-heading">
-          <span class="eyebrow">RÉALISATIONS</span>
+
+          <span class="eyebrow">
+            RÉALISATIONS
+          </span>
+
           <h1>Mes projets Data</h1>
+
           <p>
             Des projets en analyse statistique,
             automatisation et visualisation.
           </p>
+
         </div>
 
+
         <div class="projects-grid">
+
 
           <!-- PROJET 1 -->
 
           <article class="content-card project-card">
 
-            <span class="eyebrow">PROJET R SHINY</span>
+            <span class="eyebrow">
+              PROJET R SHINY
+            </span>
 
-            <h2>Bornes de recharge électrique en France</h2>
+            <h2>
+              Bornes de recharge électrique en France
+            </h2>
 
             <p>
+
               Application interactive d'analyse statistique
               et géographique des infrastructures
               de recharge électrique en France.
+
             </p>
 
             <div class="tags">
+
               <span>R</span>
               <span>Shiny</span>
               <span>Leaflet</span>
               <span>Analyse spatiale</span>
+
             </div>
 
             <div class="project-actions">
@@ -384,14 +578,18 @@
                  href="https://celiaissaoun.shinyapps.io/bornes_de_recharge/"
                  target="_blank"
                  rel="noopener noreferrer">
+
                 Voir l'application
+
               </a>
 
               <a class="btn btn-secondary"
                  href="https://github.com/celia-issaoun/analyse-bornes-recharge-france"
                  target="_blank"
                  rel="noopener noreferrer">
+
                 Code GitHub
+
               </a>
 
             </div>
@@ -399,33 +597,45 @@
           </article>
 
 
+
           <!-- PROJET 2 -->
 
           <article class="content-card project-card">
 
-            <span class="eyebrow">PROJET PYTHON</span>
+            <span class="eyebrow">
+              PROJET PYTHON
+            </span>
 
-            <h2>Automatisation des analyses R&D</h2>
+            <h2>
+              Automatisation des analyses R&D
+            </h2>
 
             <p>
+
               Traitement automatisé de données rhéologiques,
               extraction d'indicateurs et développement
               d'une application Streamlit.
+
             </p>
 
             <div class="tags">
+
               <span>Python</span>
               <span>Pandas</span>
               <span>Streamlit</span>
               <span>Statistiques</span>
+
             </div>
 
             <p class="muted small">
+
               Projet professionnel : code et données
               internes non publiés.
+
             </p>
 
           </article>
+
 
 
           <!-- PROJET 3 -->
@@ -436,19 +646,25 @@
               PROJET BUSINESS INTELLIGENCE
             </span>
 
-            <h2>Analyse des interventions fibre optique</h2>
+            <h2>
+              Analyse des interventions fibre optique
+            </h2>
 
             <p>
+
               Analyse des taux de réussite, des délais,
               de la productivité et des anomalies
               à travers des indicateurs Power BI.
+
             </p>
 
             <div class="tags">
+
               <span>Power BI</span>
               <span>Excel</span>
               <span>KPI</span>
               <span>Reporting</span>
+
             </div>
 
             <p class="muted small">
@@ -460,67 +676,96 @@
         </div>
 
       </div>
+
     </section>
+
 
 
     <!-- ================= CONTACT ================= -->
 
-    <section id="contact" class="tab-panel" hidden>
+    <section id="contact"
+             class="tab-panel"
+             hidden>
 
       <div class="page-container">
 
         <div class="section-heading">
 
-          <span class="eyebrow">CONTACT</span>
+          <span class="eyebrow">
+            CONTACT
+          </span>
 
           <h1>Travaillons ensemble</h1>
 
           <p>
+
             Ouverte aux opportunités professionnelles
             en Data Analysis, études statistiques
             et Business Intelligence.
+
           </p>
 
         </div>
 
+
         <div class="content-card contact-card">
 
-          <div class="contact-header-icon">✉</div>
+          <div class="contact-header-icon">
+            ✉
+          </div>
 
           <h2>Me contacter</h2>
 
           <p>
+
             N'hésitez pas à me contacter pour échanger
             sur une opportunité professionnelle
             ou découvrir mes projets.
+
           </p>
+
 
           <div class="contact-methods">
 
-            <!-- EMAIL -->
 
-            <a href="issaouncelia21@gmail.com"
+            <!-- EMAIL CORRIGÉ -->
+
+            <a href="mailto:issaouncelia21@gmail.com"
                class="contact-method">
 
-              <span class="contact-icon">✉</span>
+              <span class="contact-icon">
+                ✉
+              </span>
 
               <span>E-mail</span>
+
+              <span class="contact-detail">
+                issaouncelia21@gmail.com
+              </span>
 
             </a>
 
 
-            <!-- LINKEDIN -->
 
-            <a href="www.linkedin.com/in/celia-issaoun"
+            <!-- LINKEDIN CORRIGÉ -->
+
+            <a href="https://www.linkedin.com/in/celia-issaoun/"
                target="_blank"
                rel="noopener noreferrer"
                class="contact-method">
 
-              <span class="contact-icon">in</span>
+              <span class="contact-icon">
+                in
+              </span>
 
               <span>LinkedIn</span>
 
+              <span class="contact-detail">
+                linkedin.com/in/celia-issaoun
+              </span>
+
             </a>
+
 
 
             <!-- GITHUB -->
@@ -530,11 +775,18 @@
                rel="noopener noreferrer"
                class="contact-method">
 
-              <span class="contact-icon">⌘</span>
+              <span class="contact-icon">
+                ⌘
+              </span>
 
               <span>GitHub</span>
 
+              <span class="contact-detail">
+                github.com/celia-issaoun
+              </span>
+
             </a>
+
 
           </div>
 
@@ -544,14 +796,20 @@
 
     </section>
 
+
   </main>
 
 
-  <!-- PIED DE PAGE -->
+
+  <!-- ================= PIED DE PAGE ================= -->
 
   <footer>
+
     © 2026 Celia ISSAOUN · Portfolio Data Analyst
+
   </footer>
 
+
 </body>
+
 </html>
