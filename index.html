@@ -1,60 +1,89 @@
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, initial-scale=1">
+        content="width=device-width, initial-scale=1.0">
+
   <meta name="description"
-        content="Portfolio de Celia ISSAOUN, Data Analyst Junior. Projets en Python, R, Power BI et statistiques.">
+        content="Portfolio de Celia ISSAOUN, Data Analyst Junior spécialisée en statistiques, Python, R et Power BI.">
+
   <title>Celia ISSAOUN | Data Analyst</title>
+
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 
 <body>
+
+  <!-- NAVIGATION -->
   <header class="site-header">
     <nav class="navigation" aria-label="Navigation principale">
-      <a class="logo" href="#accueil" data-tab-link="accueil">
+
+      <a href="#accueil" class="logo" data-tab-link="accueil">
         <span class="logo-icon">CI.</span>
         <span>Celia ISSAOUN</span>
       </a>
 
-      <div class="nav-links" aria-label="Rubriques du portfolio">
-        <a href="#accueil" data-tab-link="accueil"
-           class="active" aria-current="page">Accueil</a>
-        <a href="#apropos" data-tab-link="apropos">À propos</a>
-        <a href="#competences" data-tab-link="competences">Compétences</a>
-        <a href="#experiences" data-tab-link="experiences">Expériences</a>
-        <a href="#projets" data-tab-link="projets">Projets</a>
-        <a href="#contact" data-tab-link="contact">Contact</a>
+      <div class="nav-links">
+
+        <a href="#accueil"
+           data-tab-link="accueil"
+           class="active"
+           aria-current="page">Accueil</a>
+
+        <a href="#apropos"
+           data-tab-link="apropos">À propos</a>
+
+        <a href="#competences"
+           data-tab-link="competences">Compétences</a>
+
+        <a href="#experiences"
+           data-tab-link="experiences">Expériences</a>
+
+        <a href="#projets"
+           data-tab-link="projets">Projets</a>
+
+        <a href="#contact"
+           data-tab-link="contact">Contact</a>
+
       </div>
     </nav>
   </header>
 
   <main id="contenu">
 
-    <!-- ACCUEIL -->
+    <!-- ================= ACCUEIL ================= -->
+
     <section id="accueil" class="tab-panel active">
+
       <div class="hero">
+
         <div class="hero-content">
-          <span class="eyebrow">PORTFOLIO DATA & STATISTIQUES</span>
+
+          <span class="eyebrow">
+            PORTFOLIO DATA & STATISTIQUES
+          </span>
 
           <div class="photo-profil">
             <img src="images/profil.png"
-                 alt="Portrait de Celia ISSAOUN">
+                 alt="Portrait professionnel de Celia ISSAOUN">
           </div>
 
           <p class="hello">Bonjour, je suis</p>
+
           <h1>Celia <span>ISSAOUN</span></h1>
+
           <h2>Data Analyst Junior</h2>
 
           <p class="hero-description">
             Diplômée d'un Master 2 en Statistiques
             Appliquées et Analyse Décisionnelle,
             je transforme les données en analyses
-            fiables, compréhensibles et exploitables
-            pour accompagner la prise de décision.
+            fiables et exploitables pour accompagner
+            la prise de décision.
           </p>
 
           <div class="tags hero-tags">
@@ -66,18 +95,33 @@
           </div>
 
           <div class="hero-actions">
-            <a href="#projets" data-tab-link="projets"
-               class="btn btn-primary">Découvrir mes projets</a>
-            <a href="#contact" data-tab-link="contact"
-               class="btn btn-secondary">Me contacter</a>
+
+            <a href="#projets"
+               data-tab-link="projets"
+               class="btn btn-primary">
+              Découvrir mes projets
+            </a>
+
+            <a href="#contact"
+               data-tab-link="contact"
+               class="btn btn-secondary">
+              Me contacter
+            </a>
+
           </div>
+
         </div>
       </div>
+
     </section>
 
-    <!-- À PROPOS -->
+
+    <!-- ================= À PROPOS ================= -->
+
     <section id="apropos" class="tab-panel" hidden>
+
       <div class="page-container">
+
         <div class="section-heading">
           <span class="eyebrow">MON PROFIL</span>
           <h1>À propos de moi</h1>
@@ -85,33 +129,42 @@
         </div>
 
         <div class="content-card">
+
           <h2>Qui suis-je ?</h2>
+
           <p>
             Je suis diplômée d'un Master 2 en
             Mathématiques appliquées, statistiques,
             parcours Statistiques Appliquées et Analyse
             Décisionnelle à l'Université de Caen Normandie.
           </p>
+
           <p>
             Je suis spécialisée dans la collecte,
-            la préparation, l'analyse statistique
+            le traitement, l'analyse statistique
             et la visualisation de données.
           </p>
+
           <p>
             Mon objectif est de transformer des données
-            complexes en indicateurs fiables et en
-            résultats compréhensibles pour les équipes.
+            complexes en résultats clairs, fiables
+            et exploitables pour faciliter la prise
+            de décision.
           </p>
+
         </div>
 
         <div class="info-grid">
+
           <article class="content-card">
             <h3>Formation</h3>
             <p>
               Master 2 — Statistiques Appliquées
               et Analyse Décisionnelle
             </p>
-            <p class="muted">Université de Caen Normandie — 2026</p>
+            <p class="muted">
+              Université de Caen Normandie — 2026
+            </p>
           </article>
 
           <article class="content-card">
@@ -122,13 +175,19 @@
             </p>
             <p class="muted">Mobilité géographique</p>
           </article>
+
         </div>
+
       </div>
     </section>
 
-    <!-- COMPÉTENCES -->
+
+    <!-- ================= COMPÉTENCES ================= -->
+
     <section id="competences" class="tab-panel" hidden>
+
       <div class="page-container">
+
         <div class="section-heading">
           <span class="eyebrow">SAVOIR-FAIRE</span>
           <h1>Mes compétences</h1>
@@ -136,12 +195,15 @@
         </div>
 
         <div class="card-grid">
+
           <article class="content-card">
             <div class="card-icon">01</div>
             <h2>Programmation</h2>
             <div class="tags">
-              <span>Python</span><span>R</span>
-              <span>SQL</span><span>SAS</span>
+              <span>Python</span>
+              <span>R</span>
+              <span>SQL</span>
+              <span>SAS</span>
               <span>VBA</span>
             </div>
           </article>
@@ -150,8 +212,10 @@
             <div class="card-icon">02</div>
             <h2>Visualisation</h2>
             <div class="tags">
-              <span>Power BI</span><span>ggplot2</span>
-              <span>Matplotlib</span><span>Seaborn</span>
+              <span>Power BI</span>
+              <span>ggplot2</span>
+              <span>Matplotlib</span>
+              <span>Seaborn</span>
               <span>Leaflet</span>
             </div>
           </article>
@@ -161,8 +225,10 @@
             <h2>Statistiques</h2>
             <div class="tags">
               <span>Tests statistiques</span>
-              <span>ANOVA</span><span>Régression</span>
-              <span>ACP</span><span>ACM</span>
+              <span>ANOVA</span>
+              <span>Régression</span>
+              <span>ACP</span>
+              <span>ACM</span>
               <span>Séries temporelles</span>
             </div>
           </article>
@@ -171,8 +237,10 @@
             <div class="card-icon">04</div>
             <h2>Traitement des données</h2>
             <div class="tags">
-              <span>Pandas</span><span>NumPy</span>
-              <span>ETL</span><span>Excel</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>ETL</span>
+              <span>Excel</span>
               <span>Apache Hop</span>
             </div>
           </article>
@@ -181,7 +249,8 @@
             <div class="card-icon">05</div>
             <h2>Applications</h2>
             <div class="tags">
-              <span>Streamlit</span><span>R Shiny</span>
+              <span>Streamlit</span>
+              <span>R Shiny</span>
               <span>Jupyter</span>
             </div>
           </article>
@@ -190,46 +259,66 @@
             <div class="card-icon">06</div>
             <h2>Environnements</h2>
             <div class="tags">
-              <span>GitHub</span><span>GitLab</span>
-              <span>VS Code</span><span>RStudio</span>
+              <span>GitHub</span>
+              <span>GitLab</span>
+              <span>VS Code</span>
+              <span>RStudio</span>
               <span>QGIS</span>
             </div>
           </article>
+
         </div>
+
       </div>
     </section>
 
-    <!-- EXPÉRIENCES -->
+
+    <!-- ================= EXPÉRIENCES ================= -->
+
     <section id="experiences" class="tab-panel" hidden>
+
       <div class="page-container">
+
         <div class="section-heading">
           <span class="eyebrow">PARCOURS PROFESSIONNEL</span>
           <h1>Mes expériences</h1>
-          <p>Application de mes compétences sur des projets concrets.</p>
+          <p>
+            Application de mes compétences
+            sur des projets concrets.
+          </p>
         </div>
 
         <article class="content-card experience-card">
+
           <span class="eyebrow">AVRIL — OCTOBRE 2026</span>
+
           <h2>Analyste de données R&D — Groupe Bel</h2>
-          <p class="muted">Stage de fin d'études · Vendôme</p>
+
+          <p class="muted">
+            Stage de fin d'études · Vendôme
+          </p>
 
           <ul>
             <li>
               Automatisation de traitements de données
               scientifiques avec Python.
             </li>
+
             <li>
               Développement d'une application Streamlit
               pour faciliter l'exploitation des analyses.
             </li>
+
             <li>
               Extraction d'indicateurs et réalisation
               d'analyses statistiques.
             </li>
+
             <li>
               Amélioration de la reproductibilité
               et de la fiabilité des traitements.
             </li>
+
             <li>
               Restitution des résultats auprès
               des experts scientifiques.
@@ -237,16 +326,24 @@
           </ul>
 
           <div class="tags">
-            <span>Python</span><span>Pandas</span>
-            <span>Streamlit</span><span>Statistiques</span>
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Streamlit</span>
+            <span>Statistiques</span>
           </div>
+
         </article>
+
       </div>
     </section>
 
-    <!-- PROJETS -->
+
+    <!-- ================= PROJETS ================= -->
+
     <section id="projets" class="tab-panel" hidden>
+
       <div class="page-container">
+
         <div class="section-heading">
           <span class="eyebrow">RÉALISATIONS</span>
           <h1>Mes projets Data</h1>
@@ -257,104 +354,202 @@
         </div>
 
         <div class="projects-grid">
-          <article class="content-card project-card">
-            <span class="eyebrow">PROJET R SHINY</span>
-            <h2>Bornes de recharge électrique en France</h2>
-            <p>
-              Application interactive d'analyse statistique
-              et spatiale des infrastructures de recharge.
-            </p>
-            <div class="tags">
-              <span>R</span><span>Shiny</span>
-              <span>Leaflet</span><span>sf</span>
-            </div>
-            <div class="project-actions">
-              <a class="btn btn-primary"
-                 href="https://celiaissaoun.shinyapps.io/bornes_de_recharge/"
-                 target="_blank" rel="noopener noreferrer">
-                Voir l'application
-              </a>
-              <a class="btn btn-secondary"
-                 href="https://github.com/celia-issaoun/analyse-bornes-recharge-france"
-                 target="_blank" rel="noopener noreferrer">
-                Code GitHub
-              </a>
-            </div>
-          </article>
+
+          <!-- PROJET 1 -->
 
           <article class="content-card project-card">
+
+            <span class="eyebrow">PROJET R SHINY</span>
+
+            <h2>Bornes de recharge électrique en France</h2>
+
+            <p>
+              Application interactive d'analyse statistique
+              et géographique des infrastructures
+              de recharge électrique en France.
+            </p>
+
+            <div class="tags">
+              <span>R</span>
+              <span>Shiny</span>
+              <span>Leaflet</span>
+              <span>Analyse spatiale</span>
+            </div>
+
+            <div class="project-actions">
+
+              <a class="btn btn-primary"
+                 href="https://celiaissaoun.shinyapps.io/bornes_de_recharge/"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Voir l'application
+              </a>
+
+              <a class="btn btn-secondary"
+                 href="https://github.com/celia-issaoun/analyse-bornes-recharge-france"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Code GitHub
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- PROJET 2 -->
+
+          <article class="content-card project-card">
+
             <span class="eyebrow">PROJET PYTHON</span>
+
             <h2>Automatisation des analyses R&D</h2>
+
             <p>
               Traitement automatisé de données rhéologiques,
               extraction d'indicateurs et développement
               d'une application Streamlit.
             </p>
+
             <div class="tags">
-              <span>Python</span><span>Pandas</span>
+              <span>Python</span>
+              <span>Pandas</span>
               <span>Streamlit</span>
+              <span>Statistiques</span>
             </div>
+
             <p class="muted small">
               Projet professionnel : code et données
               internes non publiés.
             </p>
+
           </article>
 
+
+          <!-- PROJET 3 -->
+
           <article class="content-card project-card">
-            <span class="eyebrow">PROJET BUSINESS INTELLIGENCE</span>
+
+            <span class="eyebrow">
+              PROJET BUSINESS INTELLIGENCE
+            </span>
+
             <h2>Analyse des interventions fibre optique</h2>
+
             <p>
               Analyse des taux de réussite, des délais,
               de la productivité et des anomalies
               à travers des indicateurs Power BI.
             </p>
+
             <div class="tags">
-              <span>Power BI</span><span>Excel</span>
-              <span>KPI</span><span>Reporting</span>
+              <span>Power BI</span>
+              <span>Excel</span>
+              <span>KPI</span>
+              <span>Reporting</span>
             </div>
+
             <p class="muted small">
               Données opérationnelles non publiées.
             </p>
+
           </article>
+
         </div>
+
       </div>
     </section>
 
-    <!-- CONTACT -->
+
+    <!-- ================= CONTACT ================= -->
+
     <section id="contact" class="tab-panel" hidden>
+
       <div class="page-container">
+
         <div class="section-heading">
-          <span class="eyebrow">ÉCHANGEONS</span>
-          <h1>Me contacter</h1>
+
+          <span class="eyebrow">CONTACT</span>
+
+          <h1>Travaillons ensemble</h1>
+
           <p>
-            Ouverte aux opportunités en Data Analysis,
-            études statistiques et Business Intelligence.
+            Ouverte aux opportunités professionnelles
+            en Data Analysis, études statistiques
+            et Business Intelligence.
           </p>
+
         </div>
 
         <div class="content-card contact-card">
-          <h2>Une opportunité ou un projet ?</h2>
+
+          <div class="contact-header-icon">✉</div>
+
+          <h2>Me contacter</h2>
+
           <p>
-            Retrouvez mes réalisations et mes projets
-            sur GitHub.
+            N'hésitez pas à me contacter pour échanger
+            sur une opportunité professionnelle
+            ou découvrir mes projets.
           </p>
-          <a class="btn btn-primary"
-             href="https://github.com/celia-issaoun"
-             target="_blank" rel="noopener noreferrer">
-            Consulter mon GitHub
-          </a>
-          <p class="muted small">
-            Mes coordonnées LinkedIn et mon CV
-            pourront être ajoutés ici.
-          </p>
+
+          <div class="contact-methods">
+
+            <!-- EMAIL -->
+
+            <a href="mailto:TON_EMAIL"
+               class="contact-method">
+
+              <span class="contact-icon">✉</span>
+
+              <span>E-mail</span>
+
+            </a>
+
+
+            <!-- LINKEDIN -->
+
+            <a href="TON_LIEN_LINKEDIN"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-method">
+
+              <span class="contact-icon">in</span>
+
+              <span>LinkedIn</span>
+
+            </a>
+
+
+            <!-- GITHUB -->
+
+            <a href="https://github.com/celia-issaoun"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-method">
+
+              <span class="contact-icon">⌘</span>
+
+              <span>GitHub</span>
+
+            </a>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
   </main>
 
+
+  <!-- PIED DE PAGE -->
+
   <footer>
     © 2026 Celia ISSAOUN · Portfolio Data Analyst
   </footer>
+
 </body>
 </html>
