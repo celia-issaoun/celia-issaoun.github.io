@@ -1,8 +1,8 @@
 
-/* ======================================
+/* ==========================================
    PORTFOLIO CELIA ISSAOUN
-   DESIGN MODERNE VERT ET BLANC
-====================================== */
+   DESIGN VERT ÉMERAUDE ET BLANC
+========================================== */
 
 :root {
   --primary: #0d9488;
@@ -15,6 +15,8 @@
   --white: #ffffff;
   --border: #e2e8f0;
 }
+
+/* BASE */
 
 * {
   box-sizing: border-box;
@@ -39,10 +41,6 @@ a {
   text-decoration: none;
 }
 
-button, a {
-  -webkit-tap-highlight-color: transparent;
-}
-
 a:focus-visible {
   outline: 3px solid var(--primary);
   outline-offset: 4px;
@@ -52,7 +50,9 @@ main {
   flex: 1;
 }
 
-/* NAVIGATION */
+/* ==========================================
+   NAVIGATION
+========================================== */
 
 .site-header {
   background: var(--white);
@@ -114,7 +114,9 @@ main {
   font-weight: 700;
 }
 
-/* ONGLETS DYNAMIQUES */
+/* ==========================================
+   ONGLETS DYNAMIQUES
+========================================== */
 
 .tab-panel {
   display: none;
@@ -134,13 +136,16 @@ main {
     opacity: 0;
     transform: translateY(8px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-/* ACCUEIL */
+/* ==========================================
+   ACCUEIL
+========================================== */
 
 .hero {
   min-height: 75vh;
@@ -148,9 +153,18 @@ main {
   align-items: center;
   justify-content: center;
   padding: 55px 24px;
+
   background:
-    radial-gradient(circle at 15% 20%, #ccfbf1, transparent 35%),
-    radial-gradient(circle at 85% 85%, #e0f2fe, transparent 35%),
+    radial-gradient(
+      circle at 15% 20%,
+      #ccfbf1,
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 85% 85%,
+      #e0f2fe,
+      transparent 35%
+    ),
     var(--background);
 }
 
@@ -183,6 +197,7 @@ main {
   object-position: center 30%;
   border-radius: 50%;
   border: 5px solid var(--white);
+
   box-shadow:
     0 0 0 3px var(--primary-light),
     0 12px 30px rgba(15, 118, 110, 0.15);
@@ -232,7 +247,9 @@ main {
   margin-top: 30px;
 }
 
-/* BOUTONS */
+/* ==========================================
+   BOUTONS
+========================================== */
 
 .btn {
   display: inline-block;
@@ -264,7 +281,9 @@ main {
   background: var(--primary-light);
 }
 
-/* PAGES INTERNES */
+/* ==========================================
+   PAGES INTERNES
+========================================== */
 
 .page-container {
   max-width: 1100px;
@@ -290,7 +309,9 @@ main {
   max-width: 650px;
 }
 
-/* CARTES */
+/* ==========================================
+   CARTES
+========================================== */
 
 .content-card {
   background: white;
@@ -356,7 +377,9 @@ main {
   margin-bottom: 18px;
 }
 
-/* ÉTIQUETTES */
+/* ==========================================
+   ÉTIQUETTES
+========================================== */
 
 .tags {
   display: flex;
@@ -375,7 +398,9 @@ main {
   font-weight: 600;
 }
 
-/* EXPÉRIENCES */
+/* ==========================================
+   EXPÉRIENCES
+========================================== */
 
 .experience-card {
   border-left: 5px solid var(--primary);
@@ -390,7 +415,9 @@ main {
   margin-bottom: 12px;
 }
 
-/* PROJETS */
+/* ==========================================
+   PROJETS
+========================================== */
 
 .project-card {
   display: flex;
@@ -417,19 +444,84 @@ main {
   margin-top: 20px !important;
 }
 
-/* CONTACT */
+/* ==========================================
+   CONTACT
+========================================== */
 
 .contact-card {
-  max-width: 720px;
+  max-width: 800px;
   margin: auto;
   text-align: center;
 }
 
-.contact-card .btn {
-  margin: 10px 0 15px;
+.contact-header-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 65px;
+  height: 65px;
+
+  margin: 0 auto 20px;
+
+  background: var(--primary-light);
+  color: var(--primary-dark);
+
+  border-radius: 50%;
+  font-size: 30px;
 }
 
-/* PIED DE PAGE */
+.contact-methods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.contact-method {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  padding: 25px 15px;
+
+  background: #f0fdfa;
+  border: 1px solid #ccfbf1;
+  border-radius: 14px;
+
+  color: var(--primary-dark);
+  font-weight: 700;
+
+  transition: all 0.3s ease;
+}
+
+.contact-method:hover {
+  background: var(--primary-light);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  background: white;
+
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+/* ==========================================
+   PIED DE PAGE
+========================================== */
 
 footer {
   padding: 25px;
@@ -440,9 +532,12 @@ footer {
   font-size: 13px;
 }
 
-/* TABLETTES ET TÉLÉPHONES */
+/* ==========================================
+   TABLETTES
+========================================== */
 
 @media (max-width: 900px) {
+
   .navigation {
     flex-direction: column;
     align-items: center;
@@ -452,9 +547,15 @@ footer {
   .nav-links {
     justify-content: center;
   }
+
 }
 
+/* ==========================================
+   TÉLÉPHONES
+========================================== */
+
 @media (max-width: 650px) {
+
   .navigation {
     padding: 14px;
   }
@@ -499,9 +600,19 @@ footer {
   .content-card {
     padding: 23px;
   }
+
+  .contact-methods {
+    grid-template-columns: 1fr;
+  }
+
 }
 
+/* ==========================================
+   ACCESSIBILITÉ
+========================================== */
+
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {
@@ -509,4 +620,5 @@ footer {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+
 }
