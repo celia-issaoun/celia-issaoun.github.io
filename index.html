@@ -1,77 +1,494 @@
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Celia ISSAOUN | Portfolio Data Analyst</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfolio de Celia ISSAOUN, Data Analyst Junior spécialisée en statistiques appliquées, Python, R, SQL et Power BI.">
+
+    <title>Celia ISSAOUN | Data Analyst Junior</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <nav>
-      <h2>Celia ISSAOUN</h2>
-      <div>
-        <a href="#apropos">À propos</a>
-        <a href="#competences">Compétences</a>
-        <a href="#projets">Projets</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero">
-      <h1>Bonjour, je suis Celia ISSAOUN</h1>
-      <h2>Data Analyst Junior</h2>
-      <p>Diplômée d'un Master 2 en Statistiques Appliquées et Analyse Décisionnelle à l'Université de Caen Normandie.</p>
-      <p>Je transforme les données en informations fiables et exploitables pour accompagner la prise de décision.</p>
-      <a class="button" href="#projets">Découvrir mes projets</a>
-    </section>
+    <!-- MENU DE NAVIGATION -->
 
-    <section id="apropos">
-      <h2>À propos de moi</h2>
-      <p>Spécialisée en analyse statistique, traitement et visualisation de données, je développe des solutions permettant d'automatiser les traitements et de faciliter l'interprétation des résultats.</p>
-      <p>Je recherche des opportunités en CDI ou CDD dans les domaines de la Data Analysis, des études statistiques et de la Business Intelligence.</p>
-    </section>
+    <header>
+        <nav class="navigation">
 
-    <section id="competences">
-      <h2>Compétences techniques</h2>
-      <div class="cards">
-        <article><h3>Programmation</h3><p>Python, R, SQL, SAS</p></article>
-        <article><h3>Visualisation</h3><p>Power BI, Matplotlib, ggplot2, Leaflet</p></article>
-        <article><h3>Statistiques</h3><p>Tests statistiques, régression, analyse multivariée</p></article>
-        <article><h3>Applications</h3><p>Streamlit, R Shiny, Pandas, Apache Hop</p></article>
-      </div>
-    </section>
+            <a href="#accueil" class="logo">
+                Celia ISSAOUN
+            </a>
 
-    <section id="projets">
-      <h2>Mes projets</h2>
-      <div class="cards">
-        <article>
-          <h3>Analyse des bornes de recharge en France</h3>
-          <p>Application R Shiny d'analyse statistique et spatiale des infrastructures de recharge électrique.</p>
-          <p>R · Shiny · Leaflet · sf</p>
-          <a href="https://github.com/celia-issaoun/analyse-bornes-recharge-france" target="_blank" rel="noopener noreferrer">Voir le code</a>
-          <a href="https://celiaissaoun.shinyapps.io/bornes_de_recharge/" target="_blank" rel="noopener noreferrer">Voir l'application</a>
-        </article>
-        <article>
-          <h3>Automatisation d'analyses R&D</h3>
-          <p>Automatisation de traitements scientifiques avec Python et développement d'une application Streamlit.</p>
-          <p>Python · Pandas · Streamlit</p>
-        </article>
-      </div>
-    </section>
+            <div class="nav-links">
+                <a href="#accueil">Accueil</a>
+                <a href="#apropos">À propos</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
+            </div>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Ouverte aux opportunités professionnelles en Data Analysis et études statistiques.</p>
-      <a class="button" href="https://github.com/celia-issaoun" target="_blank" rel="noopener noreferrer">Mon GitHub</a>
-    </section>
-  </main>
+        </nav>
+    </header>
 
-  <footer>
-    <p>© 2026 Celia ISSAOUN — Portfolio Data Analyst</p>
-  </footer>
+
+    <main>
+
+        <!-- PAGE D'ACCUEIL -->
+
+        <section id="accueil" class="hero">
+
+            <div class="hero-container">
+
+                <!-- PHOTO DE PROFIL -->
+
+                <div class="photo-profil">
+
+                    <img
+                        src="images/profil.png"
+                        alt="Photo de profil de Celia ISSAOUN"
+                    >
+
+                </div>
+
+                <!-- PRÉSENTATION -->
+
+                <div class="hero-text">
+
+                    <p class="surtitle">
+                        PORTFOLIO DATA ANALYST
+                    </p>
+
+                    <h1>
+                        Bonjour, je suis
+                        <span>Celia ISSAOUN</span>
+                    </h1>
+
+                    <h2>
+                        Data Analyst Junior
+                    </h2>
+
+                    <p>
+                        Diplômée d'un Master 2 en
+                        Mathématiques appliquées,
+                        statistiques, parcours
+                        Statistiques Appliquées et
+                        Analyse Décisionnelle à
+                        l'Université de Caen Normandie.
+                    </p>
+
+                    <p>
+                        Passionnée par l'analyse des données,
+                        les méthodes statistiques et la
+                        visualisation, je transforme
+                        les données en informations fiables
+                        et exploitables pour accompagner
+                        la prise de décision.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projets"
+                           class="btn btn-primary">
+                            Découvrir mes projets
+                        </a>
+
+                        <a href="https://github.com/celia-issaoun"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn btn-outline">
+                            Mon GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- À PROPOS -->
+
+        <section id="apropos" class="section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    À propos de moi
+                </h2>
+
+                <p>
+                    Je suis Data Analyst Junior,
+                    spécialisée dans la collecte,
+                    le nettoyage, le traitement,
+                    l'analyse statistique et
+                    la visualisation des données.
+                </p>
+
+                <p>
+                    Mon parcours universitaire m'a
+                    permis d'acquérir de solides
+                    compétences en statistiques
+                    appliquées, programmation et
+                    analyse décisionnelle.
+                </p>
+
+                <p>
+                    Lors de mon expérience en tant
+                    qu'Analyste de données R&D au
+                    sein du Groupe Bel, j'ai travaillé
+                    sur l'automatisation de traitements
+                    de données scientifiques avec Python.
+                    J'ai également développé une
+                    application interactive avec Streamlit
+                    afin de faciliter l'exploitation
+                    et l'interprétation des résultats.
+                </p>
+
+                <p>
+                    Rigoureuse, curieuse et autonome,
+                    je recherche des opportunités
+                    professionnelles en CDI ou CDD
+                    dans les domaines de la Data Analysis,
+                    des études statistiques et de
+                    la Business Intelligence.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- COMPÉTENCES -->
+
+        <section id="competences"
+                 class="section section-light">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Compétences techniques
+                </h2>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <h3>Programmation</h3>
+                        <p>
+                            Python, R, SQL, SAS,
+                            Excel, VBA
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Analyse statistique</h3>
+                        <p>
+                            Statistiques descriptives,
+                            tests statistiques,
+                            ANOVA, régression,
+                            ACP, ACM et séries temporelles
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Data Visualisation</h3>
+                        <p>
+                            Power BI, Matplotlib,
+                            Seaborn, ggplot2,
+                            Leaflet
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Traitement des données</h3>
+                        <p>
+                            Pandas, NumPy,
+                            nettoyage de données,
+                            transformation et automatisation
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Applications interactives</h3>
+                        <p>
+                            Streamlit, R Shiny,
+                            tableaux de bord
+                            et applications web
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Outils et environnements</h3>
+                        <p>
+                            GitHub, GitLab, RStudio,
+                            VS Code, Jupyter,
+                            Apache Hop, QGIS
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJETS -->
+
+        <section id="projets" class="section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Mes projets
+                </h2>
+
+                <p class="section-intro">
+                    Découvrez une sélection de mes
+                    réalisations en analyse de données,
+                    statistiques, automatisation
+                    et visualisation.
+                </p>
+
+                <div class="projects-grid">
+
+                    <!-- PROJET 1 -->
+
+                    <article class="project-card">
+
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                R SHINY | ANALYSE SPATIALE
+                            </span>
+
+                            <h3>
+                                Analyse des bornes de
+                                recharge électrique en France
+                            </h3>
+
+                            <p>
+                                Développement d'une application
+                                interactive permettant
+                                l'analyse statistique et
+                                spatiale des infrastructures
+                                de recharge électrique
+                                en France.
+                            </p>
+
+                            <p>
+                                Cartographie interactive,
+                                analyse des distances,
+                                cartes de chaleur et
+                                étude de la répartition
+                                géographique des bornes.
+                            </p>
+
+                            <div class="tags">
+                                <span>R</span>
+                                <span>Shiny</span>
+                                <span>Leaflet</span>
+                                <span>sf</span>
+                                <span>Statistiques</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <a
+                                  href="https://github.com/celia-issaoun/analyse-bornes-recharge-france"
+                                  target="_blank"
+                                  rel="noopener noreferrer">
+                                    Voir le code GitHub
+                                </a>
+
+                                <a
+                                  href="https://celiaissaoun.shinyapps.io/bornes_de_recharge/"
+                                  target="_blank"
+                                  rel="noopener noreferrer">
+                                    Voir l'application
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJET 2 -->
+
+                    <article class="project-card">
+
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                PYTHON | STREAMLIT
+                            </span>
+
+                            <h3>
+                                Automatisation des analyses
+                                de données R&D
+                            </h3>
+
+                            <p>
+                                Projet réalisé lors de mon
+                                expérience au sein du Groupe Bel.
+                            </p>
+
+                            <p>
+                                Automatisation du traitement
+                                des données rhéologiques,
+                                extraction d'indicateurs,
+                                analyses statistiques et
+                                développement d'une application
+                                interactive Streamlit.
+                            </p>
+
+                            <p>
+                                L'objectif était de fiabiliser
+                                les résultats, d'améliorer
+                                la reproductibilité des analyses
+                                et de réduire les traitements
+                                manuels.
+                            </p>
+
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Streamlit</span>
+                                <span>Statistiques</span>
+                            </div>
+
+                            <p class="project-note">
+                                Code et données internes
+                                non publiés.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJET 3 -->
+
+                    <article class="project-card">
+
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                POWER BI | KPI
+                            </span>
+
+                            <h3>
+                                Analyse des interventions
+                                en réseaux de télécommunications
+                            </h3>
+
+                            <p>
+                                Analyse de données
+                                d'interventions en fibre optique
+                                afin d'étudier les performances
+                                opérationnelles.
+                            </p>
+
+                            <p>
+                                Étude des taux de réussite,
+                                des délais d'intervention,
+                                de la productivité et
+                                des anomalies.
+                            </p>
+
+                            <p>
+                                Conception de tableaux de bord
+                                et d'indicateurs de performance
+                                avec Power BI.
+                            </p>
+
+                            <div class="tags">
+                                <span>Power BI</span>
+                                <span>Excel</span>
+                                <span>KPI</span>
+                                <span>Reporting</span>
+                            </div>
+
+                            <p class="project-note">
+                                Présentation du projet.
+                                Données non publiées.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section id="contact"
+                 class="section section-light">
+
+            <div class="container contact-container">
+
+                <h2 class="section-title">
+                    Contact
+                </h2>
+
+                <p>
+                    Je suis ouverte aux opportunités
+                    professionnelles en CDI ou CDD
+                    dans les domaines de l'analyse
+                    de données, des études statistiques
+                    et de la Business Intelligence.
+                </p>
+
+                <p>
+                    N'hésitez pas à me contacter
+                    pour échanger sur une opportunité
+                    ou découvrir mes projets.
+                </p>
+
+                <div class="contact-links">
+
+                    <a
+                      href="https://github.com/celia-issaoun"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-primary">
+                        Mon GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIED DE PAGE -->
+
+    <footer>
+
+        <p>
+            © 2026 Celia ISSAOUN
+            | Portfolio Data Analyst
+        </p>
+
+    </footer>
+
 </body>
 </html>
