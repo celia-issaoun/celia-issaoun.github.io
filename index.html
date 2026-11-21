@@ -17,7 +17,6 @@
 
     <script src="script.js" defer></script>
 
-    <!-- Styles complémentaires pour les contacts -->
     <style>
         .contact-detail {
             display: block;
@@ -30,6 +29,55 @@
 
         .contact-method {
             min-width: 0;
+        }
+
+        /* Présentation de l'application du Groupe Bel */
+
+        .stage-preview {
+            margin-top: 28px;
+            padding-top: 24px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .stage-preview h3 {
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+        }
+
+        .stage-preview-description {
+            margin-bottom: 18px;
+            line-height: 1.7;
+            color: #475569;
+        }
+
+        .stage-preview-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+        }
+
+        .stage-preview-caption {
+            margin-top: 10px;
+            font-size: 0.85rem;
+            color: #64748b;
+            text-align: center;
+        }
+
+        .stage-preview-actions {
+            margin-top: 20px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 600px) {
+            .stage-preview-actions .btn {
+                width: 100%;
+                text-align: center;
+            }
         }
     </style>
 
@@ -93,9 +141,7 @@
 
     </header>
 
-
     <main id="contenu">
-
 
         <!-- ================= ACCUEIL ================= -->
 
@@ -150,17 +196,13 @@
                         <a href="#projets"
                            data-tab-link="projets"
                            class="btn btn-primary">
-
                             Découvrir mes projets
-
                         </a>
 
                         <a href="#contact"
                            data-tab-link="contact"
                            class="btn btn-secondary">
-
                             Me contacter
-
                         </a>
 
                     </div>
@@ -170,7 +212,6 @@
             </div>
 
         </section>
-
 
         <!-- ================= À PROPOS ================= -->
 
@@ -220,7 +261,6 @@
 
                 </div>
 
-
                 <div class="info-grid">
 
                     <article class="content-card">
@@ -237,7 +277,6 @@
                         </p>
 
                     </article>
-
 
                     <article class="content-card">
 
@@ -261,7 +300,6 @@
 
         </section>
 
-
         <!-- ================= COMPÉTENCES ================= -->
 
         <section id="competences"
@@ -284,7 +322,6 @@
 
                 </div>
 
-
                 <div class="card-grid">
 
                     <!-- PROGRAMMATION -->
@@ -305,7 +342,6 @@
 
                     </article>
 
-
                     <!-- VISUALISATION -->
 
                     <article class="content-card">
@@ -323,7 +359,6 @@
                         </div>
 
                     </article>
-
 
                     <!-- STATISTIQUES -->
 
@@ -344,7 +379,6 @@
 
                     </article>
 
-
                     <!-- TRAITEMENT DES DONNÉES -->
 
                     <article class="content-card">
@@ -363,7 +397,6 @@
 
                     </article>
 
-
                     <!-- APPLICATIONS -->
 
                     <article class="content-card">
@@ -379,7 +412,6 @@
                         </div>
 
                     </article>
-
 
                     <!-- ENVIRONNEMENTS -->
 
@@ -405,7 +437,6 @@
 
         </section>
 
-
         <!-- ================= EXPÉRIENCES ================= -->
 
         <section id="experiences"
@@ -428,7 +459,6 @@
                     </p>
 
                 </div>
-
 
                 <article class="content-card experience-card">
 
@@ -462,6 +492,11 @@
                         </li>
 
                         <li>
+                            Traitement automatisé de plusieurs centaines
+                            de fichiers en quelques minutes.
+                        </li>
+
+                        <li>
                             Amélioration de la reproductibilité
                             et de la fiabilité des traitements.
                         </li>
@@ -479,6 +514,52 @@
                         <span>Pandas</span>
                         <span>Streamlit</span>
                         <span>Statistiques</span>
+                        <span>GitLab</span>
+
+                    </div>
+
+                    <!-- CAPTURE DE L'APPLICATION STREAMLIT -->
+
+                    <div class="stage-preview">
+
+                        <h3>
+                            Aperçu de l'application développée
+                        </h3>
+
+                        <p class="stage-preview-description">
+                            Dans le cadre de ce stage, j'ai développé
+                            une application web interactive permettant
+                            d'automatiser l'analyse des données
+                            rhéologiques, d'extraire des paramètres
+                            caractéristiques et de réaliser
+                            des comparaisons statistiques.
+                        </p>
+
+                        <img
+                            src="images/interface_principal.png"
+                            alt="Capture de l'application Streamlit développée dans le cadre du stage R&D"
+                            class="stage-preview-image"
+                            loading="lazy"
+                        >
+
+                        <p class="stage-preview-caption">
+                            Aperçu de l'interface Streamlit —
+                            illustration autorisée ou réalisée
+                            avec des données fictives.
+                        </p>
+
+                        <div class="stage-preview-actions">
+
+                            <a
+                                href="https://github.com/celia-issaoun/projet-analyse-donnees-rd"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn btn-primary"
+                            >
+                                Voir la présentation du projet
+                            </a>
+
+                        </div>
 
                     </div>
 
@@ -487,7 +568,6 @@
             </div>
 
         </section>
-
 
         <!-- ================= PROJETS ================= -->
 
@@ -512,9 +592,7 @@
 
                 </div>
 
-
                 <div class="projects-grid">
-
 
                     <!-- PROJET 1 -->
 
@@ -565,39 +643,60 @@
 
                     </article>
 
-
-                    <!-- PROJET 2 -->
+                    <!-- PROJET 2 : GROUPE BEL -->
 
                     <article class="content-card project-card">
 
                         <span class="eyebrow">
-                            PROJET PYTHON
+                            PROJET PYTHON / STREAMLIT
                         </span>
 
                         <h2>
-                            Automatisation des analyses R&D
+                            Automatisation des analyses R&D — Groupe Bel
                         </h2>
 
                         <p>
-                            Traitement automatisé de données rhéologiques,
-                            extraction d'indicateurs et développement
-                            d'une application Streamlit.
+                            Développement d'une application Streamlit
+                            permettant d'automatiser le traitement
+                            de données rhéologiques, d'extraire
+                            des indicateurs caractéristiques
+                            et de réaliser des analyses statistiques.
+                        </p>
+
+                        <p>
+                            Automatisation du traitement de plusieurs
+                            centaines de fichiers en quelques minutes,
+                            avec génération de graphiques
+                            et exportation des résultats.
                         </p>
 
                         <div class="tags">
                             <span>Python</span>
                             <span>Pandas</span>
+                            <span>SciPy</span>
                             <span>Streamlit</span>
                             <span>Statistiques</span>
                         </div>
 
                         <p class="muted small">
-                            Projet professionnel : code et données
-                            internes non publiés.
+                            Projet professionnel : code source
+                            et données internes non publiés.
                         </p>
 
-                    </article>
+                        <div class="project-actions">
 
+                            <a
+                                class="btn btn-primary"
+                                href="https://github.com/celia-issaoun/projet-analyse-donnees-rd"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Voir la présentation du projet
+                            </a>
+
+                        </div>
+
+                    </article>
 
                     <!-- PROJET 3 -->
 
@@ -636,7 +735,6 @@
 
         </section>
 
-
         <!-- ================= CONTACT ================= -->
 
         <section id="contact"
@@ -661,7 +759,6 @@
 
                 </div>
 
-
                 <div class="content-card contact-card">
 
                     <div class="contact-header-icon">
@@ -676,11 +773,9 @@
                         ou découvrir mes projets.
                     </p>
 
-
                     <div class="contact-methods">
 
-
-                        <!-- EMAIL CORRIGÉ -->
+                        <!-- EMAIL -->
 
                         <a href="mailto:issaouncelia21@gmail.com?subject=Contact%20depuis%20votre%20portfolio"
                            class="contact-method">
@@ -697,8 +792,7 @@
 
                         </a>
 
-
-                        <!-- LINKEDIN CORRIGÉ -->
+                        <!-- LINKEDIN -->
 
                         <a href="https://www.linkedin.com/in/celia-issaoun/"
                            target="_blank"
@@ -716,7 +810,6 @@
                             </span>
 
                         </a>
-
 
                         <!-- GITHUB -->
 
@@ -737,7 +830,6 @@
 
                         </a>
 
-
                     </div>
 
                 </div>
@@ -746,18 +838,13 @@
 
         </section>
 
-
     </main>
-
 
     <!-- ================= PIED DE PAGE ================= -->
 
     <footer>
-
         © 2026 Celia ISSAOUN · Portfolio Data Analyst
-
     </footer>
-
 
 </body>
 
